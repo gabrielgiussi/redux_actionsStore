@@ -1,7 +1,7 @@
 {
-   "name":"casacas-webclient",
+   "name":"redux_actionsStore",
    "version":"0.0.1",
-   "description":"Casacas Web Client",
+   "description":"redux_actionsStore",
    "main":"app.js",
    "dependencies":{
       "react":"0.13.1",
