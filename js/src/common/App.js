@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CasacasApp from './components/CasacasApp';
+import ReduxApp from './components/ReduxApp';
 import { createRedux } from 'redux';
 import { Provider } from 'redux/react';
 import * as stores from './stores';
@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <Provider redux={redux}>
-        {() => <CasacasApp />}
+        {() => <ReduxApp />}
       </Provider>
     );
   }
