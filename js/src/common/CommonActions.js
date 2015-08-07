@@ -5,11 +5,6 @@ import AlertAPI from "./AlertAPI";
 
 import Action from './Action';
 
-export function login(payload,id){
-  var action = new Action({payload: payload,id: id, type: LOGIN_START, api: SecurityWebAPI});
-  return action.trigger();
-}
-
 export function alert(payload,id){
   var action = new Action({payload: payload,id: id, type: 'ALERT', api: AlertAPI});
   return action.trigger();
