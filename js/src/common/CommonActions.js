@@ -1,5 +1,4 @@
 import { ALERT_START, ALERT_SUCCESS, ALERT_FAIL } from './ActionTypes';
-import SecurityWebAPI from "./SecurityWebAPI";
 import AlertAPI from "./AlertAPI";
 // https://github.com/gaearon/redux/issues/99#issuecomment-112212639
 
